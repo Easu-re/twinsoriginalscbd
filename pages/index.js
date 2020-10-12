@@ -85,7 +85,7 @@ export default class index extends React.Component {
     }, 3000)
 
     if(sessionStorage.getItem("hide") == "true"){
-      console.log('iff condition ', sessionStorage.getItem("hide") );
+      //console.log('iff condition ', sessionStorage.getItem("hide") );
       (document.getElementById('para').style.display='none')
     }
 
@@ -186,7 +186,7 @@ export default class index extends React.Component {
               <div className='category-btn'>
                 <div className="button" id="button-1">
                   <div className="slide"></div>
-                  <Link href='/products/500mg Pet Tincture'>
+                  <Link href='/products/500mg-Pet-Tincture'>
                     <a className='shop-link'><i style={{ fontSize: '25px' }} className='fa fa-shopping-bag' /></a>
                   </Link>
                 </div>
@@ -222,7 +222,7 @@ export default class index extends React.Component {
               <div className='category-btn'>
                 <div className="button" id="button-1">
                   <div id="slide"></div>
-                  <Link href='/products/Topical Roller 150mg'>
+                  <Link href='/products/Topical-Roller-150mg'>
                     <a className='shop-link'><i style={{ fontSize: '25px' }} className='fa fa-shopping-bag' /></a>
                   </Link>
                 </div>
@@ -259,7 +259,7 @@ export default class index extends React.Component {
               <div className='category-btn'>
                 <div className="button" id="button-1">
                   <div id="slide"></div>
-                  <Link href='/products/500mg Body Butter'>
+                  <Link href='/products/500mg-Body-Butter'>
                     <a className='shop-link'><i style={{ fontSize: '25px' }} className='fa fa-shopping-bag' /></a>
                   </Link>
                 </div>
@@ -295,7 +295,7 @@ export default class index extends React.Component {
               <div className='category-btn'>
                 <div className="button" id="button-1">
                   <div id="slide"></div>
-                  <Link href='/products/1000mg Tincture'>
+                  <Link href='/products/1000mg-Tincture'>
                     <a className='shop-link'><i style={{ fontSize: '25px' }} className='fa fa-shopping-bag' /></a>
                   </Link>
                 </div>
@@ -328,7 +328,7 @@ export default class index extends React.Component {
               <div className='category-btn'>
                 <div className="button" id="button-1">
                   <div id="slide"></div>
-                  <Link href='/products/CBD CBG Capsules 25mg  Relief X®'>
+                  <Link href='/products/CBD-CBG-Capsules-50mg-Relief-X®'>
                     <a className='shop-link'><i style={{ fontSize: '25px' }} className='fa fa-shopping-bag' /></a>
                   </Link>
                 </div>
@@ -364,7 +364,7 @@ export default class index extends React.Component {
               <div className='category-btn'>
                 <div className="button" id="button-1">
                   <div id="slide"></div>
-                  <Link href='/products/500mg Tincture'>
+                  <Link href='/products/500mg-Tincture'>
                     <a className='shop-link'><i style={{ fontSize: '25px' }} className='fa fa-shopping-bag' /></a>
                   </Link>
                 </div>

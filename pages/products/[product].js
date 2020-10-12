@@ -100,7 +100,7 @@ class product extends Component {
 
   render() {
       const { data } = this.props;
-      //console.log('render', data);
+      console.log('render', this.props);
       const { curr_img, open, message, autoHideDuration, severity, quantity } = this.state;
       return (
           <div>

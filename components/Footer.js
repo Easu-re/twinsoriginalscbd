@@ -63,7 +63,7 @@ export default class Footer extends Component {
                                     <Grid container direction='column' spacing={1}>
                                         <Grid item><Link href='/policy'><a className='links'>privacy policy</a></Link></Grid>
                                         <Grid item><Link href='/conditions'><a className='links'>terms and conditions</a></Link></Grid>
-                                        <Grid item><Link href='/about'><a className='links'>about us</a></Link></Grid>
+                                        <Grid item><Link href='/about-us-2'><a className='links'>about us</a></Link></Grid>
                                     </Grid>
                                 </Grid>
                                 <Grid item sm={3} style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
@@ -80,9 +80,9 @@ export default class Footer extends Component {
                                 </Grid>
                                 <Grid item sm={4} style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
                                     <Grid container direction='column' spacing={1}>
-                                        <Grid item><Link href='/contact'><a className='links'>contact us</a></Link></Grid>
+                                        <Grid item><Link href='/contact-us'><a className='links'>contact us</a></Link></Grid>
                                         <Grid item><Link href='/cookiePolicy'><a className='links'>cookie policy</a></Link></Grid>
-                                        <Grid item><Link href='/faq'><a className='links'>faq's</a></Link></Grid>
+                                        <Grid item><Link href='/faqs-2'><a className='links'>faq's</a></Link></Grid>
                                     </Grid>
                                 </Grid>
                             </Grid>
@@ -126,7 +126,7 @@ export default class Footer extends Component {
                                     <Grid container direction='column' spacing={1}>
                                         <Grid item><Link href='/policy'><a className='links'>privacy policy</a></Link></Grid>
                                         <Grid item><Link href='/conditions'><a className='links'>terms and conditions</a></Link></Grid>
-                                        <Grid item><Link href='/about'><a className='links'>about us</a></Link></Grid>
+                                        <Grid item><Link href='/about-us-2'><a className='links'>about us</a></Link></Grid>
                                     </Grid>
                                 </Grid>
                                 <Grid item xs={2} style={{ textAlign: 'center', fontFamily: 'sans-serif', fontSize: '25px' }}>
@@ -139,9 +139,9 @@ export default class Footer extends Component {
                                 </Grid>
                                 <Grid item xs={4} style={{ textAlign: 'center', fontFamily: 'sans-serif' }}>
                                     <Grid container direction='column' spacing={1}>
-                                        <Grid item><Link href='/contact'><a className='links'>contact us</a></Link></Grid>
+                                        <Grid item><Link href='/contact-us'><a className='links'>contact us</a></Link></Grid>
                                         <Grid item><Link href='/cookiePolicy'><a className='links'>cookie policy</a></Link></Grid>
-                                        <Grid item><Link href='/faq'><a className='links'>faq's</a></Link></Grid>
+                                        <Grid item><Link href='/faqs-2'><a className='links'>faq's</a></Link></Grid>
                                     </Grid>
                                 </Grid>
                             </Grid>

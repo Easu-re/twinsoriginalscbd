@@ -55,7 +55,7 @@ export default class Header extends Component {
                     <div style={{ border: '1px solid', width: 0, transition: '.5s', color: 'white'}} id='div1'></div>
                 </div>
                 <div onMouseEnter={() => this.underline(2)} onMouseLeave={() => this.removeUnderline(2)}>
-                    <Link href='/about'><a className='link'>About Us</a></Link>
+                    <Link href='/about-us-2'><a className='link'>About Us</a></Link>
                     <div style={{ border: '1px solid', width: 0, transition: '.5s', color: 'white'}} id='div2'></div>
                 </div>
                 <div onMouseEnter={() => this.underline(3)} onMouseLeave={() => this.removeUnderline(3)}>
@@ -66,7 +66,7 @@ export default class Header extends Component {
                     <Link href='/'><a><img src='/logo.png' id='logo' /></a></Link>
                 </div>
                 <div onMouseEnter={() => this.underline(4)} onMouseLeave={() => this.removeUnderline(4)}>
-                    <Link href='/contact'><a className='link'>Contact Us</a></Link>
+                    <Link href='/contact-us'><a className='link'>Contact Us</a></Link>
                     <div style={{ border: '1px solid', width: 0, transition: '.5s', color: 'white'}} id='div4'></div>
                 </div>
                 <div onMouseEnter={() => this.underline(5)} onMouseLeave={() => this.removeUnderline(5)}>
@@ -80,7 +80,7 @@ export default class Header extends Component {
                     <div style={{ border: '1px solid', width: 0, transition: '.5s', color: 'white'}} id='div5'></div>
                 </div>
                 <div onMouseEnter={() => this.underline(6)} onMouseLeave={() => this.removeUnderline(6)}>
-                    <Link href='/faq'><a className='link'>FAQ's</a></Link>
+                    <Link href='/faqs-2'><a className='link'>FAQ's</a></Link>
                     <div style={{ border: '1px solid', width: 0, transition: '.5s', color: 'white'}} id='div6'></div>
                 </div>
             </div>
@@ -112,13 +112,13 @@ export default class Header extends Component {
                         <Link href='/'><a style={{ textDecoration: 'none', color: 'white'}}>Home</a></Link>
                     </div>
                     <div className='menu-list'>
-                        <Link href='/about'><a style={{ textDecoration: 'none', color: 'white'}}>About Us</a></Link>
+                        <Link href='/about-us-2'><a style={{ textDecoration: 'none', color: 'white'}}>About Us</a></Link>
                     </div>
                     <div className='menu-list'>
                         <Link href='/shop'><a style={{ textDecoration: 'none', color: 'white'}}>Shop</a></Link>
                     </div>
                     <div className='menu-list'>
-                        <Link href='/contact'><a style={{ textDecoration: 'none', color: 'white'}}>Contact</a></Link>
+                        <Link href='/contact-us'><a style={{ textDecoration: 'none', color: 'white'}}>Contact</a></Link>
                     </div>
                     <div className='menu-list'>
                         {
@@ -130,7 +130,7 @@ export default class Header extends Component {
                         }
                     </div>
                     <div className='menu-list'>
-                        <Link href='/faq'><a style={{ textDecoration: 'none', color: 'white'}}>FAQ's</a></Link>
+                        <Link href='/faqs-2'><a style={{ textDecoration: 'none', color: 'white'}}>FAQ's</a></Link>
                     </div>
                 </div>
             </div>

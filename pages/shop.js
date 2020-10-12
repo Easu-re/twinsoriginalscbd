@@ -147,6 +147,7 @@ class Shop extends Component {
     render() {
         const images = ['shop1', 'shop2', 'shop3', 'shop4', 'shop5', 'shop6']
         const names = ['500mg Pet Tincture', '500mg Body Butter', '1000mg Tincture', '500mg Tincture', 'CBD CBG Capsules 50mg Relief X®', 'Topical Roller 150mg']
+        const urls = ['500mg-Pet-Tincture', '500mg-Body-Butter', '1000mg-Tincture', '500mg-Tincture', 'CBD-CBG-Capsules-50mg-Relief-X®', 'Topical-Roller-150mg']
         const desc = [
             'Twins Originals CBD is a Natural support for your furry babies that can help calm your pet.',
             'Smooth, supple, hydrated skin is waiting! Uncap a jar of Twins Originals CBD body butter now.',
@@ -178,11 +179,11 @@ class Shop extends Component {
                         images.map((img, i) => {
                             return (
                                 <>
-                                {console.log('data', img)},
-                                        <div className='box' style={{
+                               
+                                        <div key={i} className='box' style={{
                                             marginBottom: screen.width < 900 ? (i==0 ? '250px' : (i==1 ? '250px' : (i==2 ? '280px' : (i==3 ? '220px' : (i==4 ? '280px': (i==5 ? '280px': null)))))) : null
                                         }}>
-                                        <Link href={`/products/${names[i]}`}>
+                                        <Link href={`/products/${urls[i]}`}>
                                             <a style={{ color: 'black'}}>
 
                                             <div className='bg'></div>
